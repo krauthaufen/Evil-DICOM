@@ -1,0 +1,7 @@
+type file
+id Unofficial.EvilDICOM
+authors Aardvark-Platform Team
+description DICOM library
+files
+	Release\netstandard2.0\EvilDICOM.dll => lib\netstandard2.0
+	Release\netstandard2.0\EvilDICOM.pdb => lib\netstandard2.0
