@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilDICOMTests", "EvilDICOMTests\EvilDICOMTests.csproj", "{E3C69FD5-9C5A-4C9D-B44C-A6C82A7510E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilDICOM", "EvilDICOM\EvilDICOM.csproj", "{3EF6CD55-D565-40F2-88E6-C0007C1B72E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvilDICOM", "EvilDICOM\EvilDICOM.csproj", "{C8825317-DA8F-4F7A-9566-B6BB9351AC2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,10 @@ Global
 		{E3C69FD5-9C5A-4C9D-B44C-A6C82A7510E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3C69FD5-9C5A-4C9D-B44C-A6C82A7510E1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{E3C69FD5-9C5A-4C9D-B44C-A6C82A7510E1}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{3EF6CD55-D565-40F2-88E6-C0007C1B72E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EF6CD55-D565-40F2-88E6-C0007C1B72E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EF6CD55-D565-40F2-88E6-C0007C1B72E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EF6CD55-D565-40F2-88E6-C0007C1B72E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8825317-DA8F-4F7A-9566-B6BB9351AC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8825317-DA8F-4F7A-9566-B6BB9351AC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8825317-DA8F-4F7A-9566-B6BB9351AC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8825317-DA8F-4F7A-9566-B6BB9351AC2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

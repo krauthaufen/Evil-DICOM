@@ -28,14 +28,20 @@ namespace EvilDICOM.Core.Helpers
                             results.Add($"{priorSequencePath}{dcm1El.Tag} not same number of data items (different VM)");
                             results.Add($"Reading smallest agreed = {count}");
                         }
+
+                        var e1 = dcm1El.DData_.GetEnumerator();
+                        var e2 = dcm2El.DData_.GetEnumerator();
+                 
                         for (int k = 0; k < count; k++)
                         {
-                            var a = ((dynamic)dcm1El).Data_[k];
-                            var b = ((dynamic)dcm2El).Data_[k];
+                            e1.MoveNext();
+                            e2.MoveNext();
+                            var a = e1.Current;
+                            var b = e2.Current;
 
-                            if (a is DICOMObject)
+                            if (a is DICOMObject && b is DICOMObject)
                             {
-                                results.AddRange(CompareObjects(a, b, $"{priorSequencePath}{dcm1El.Tag}>>"));
+                                results.AddRange(CompareObjects((DICOMObject)a, (DICOMObject)b, $"{priorSequencePath}{dcm1El.Tag}>>"));
                             }
                             else if (a is string && b is string)
                             {
@@ -79,7 +85,6 @@ namespace EvilDICOM.Core.Helpers
                                 }
                             }
                         }
-
                     }
                     else
                     {

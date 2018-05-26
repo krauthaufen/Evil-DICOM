@@ -8,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EvilDICOMTests</RootNamespace>
     <AssemblyName>EvilDICOMTests</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -135,7 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EvilDICOM\EvilDICOM.csproj">
-      <Project>{3ef6cd55-d565-40f2-88e6-c0007c1b72e2}</Project>
+      <Project>{c8825317-da8f-4f7a-9566-b6bb9351ac2b}</Project>
       <Name>EvilDICOM</Name>
     </ProjectReference>
   </ItemGroup>
